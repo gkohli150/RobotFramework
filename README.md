@@ -25,11 +25,13 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/robot-framework-project.git
-cd robot-framework-project
+git clone https://github.com/gkohli150/RobotFramework.git
+cd RobotFramework
 
 python -m venv venv
-source venv/bin/activate       
+source venv/bin/activate
+
+pip install -r requirements.txt   
 
 Run a Single Test File
 robot -d results tests/smoke/login.robot
